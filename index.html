@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keerthi_portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8a6ee4cffe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo4.jpg" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-rectangle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data Analyst</p>
+                <h1>Hi, I'm <span>Keerthi...</span><br>From India</h1>
+            </div>
+        </div>
+<!-- ---------------about--------------- -->
+</div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/pic12.jpg" alt="pic1">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> My name is Keerthi Bammidi. I comes from Srikakulam. I have completed my engineering at Sankethika Vidya Parisad Engineering College. Currently, I am pursuing M.Tech at Gayatri Vidya Parisad Engineering College. I have completed my BTech in Computer Science Engineering. Now, I am pursuing an M.Tech in Computer Science Engineering.Engineering. Now, I am pursuing an M.Tech in Computer Science Engineering.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data analyst</span><br>A Data Analyst is a professional who collects, processes, and analyzes data to help businesses make informed decisions. They use various tools and techniques to identify patterns, trends, and insights from data.</li>
+                            <li><span>PowerBi</span><br>Data visulizing</li>
+                            <li><span>Tableau</span><br>Data visulizing</li>
+                            <li><span>sql,mysql,ssms</span><br>Database quaries</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br>No exprience but i learned to do all the projects, with my own interest</li>
+            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>Btech from SVPEC vishakaptnam</li>
+                            <li><span>2024</span><br>Mtech from GVPEC vishakaptnam</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------services---------- -->
+   <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data analysis</h2>
+                    <p>To analysing the hidden patterns in the dataset for bedtter decision making</p>
+                    <a href="#">Learn more....</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>SQL</h2>
+                    <p>To quering,creating,manipulating,defining,controlling..</p>
+                    <a href="#">Learn more....</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Python</h2>
+                    <p>Using numpy,pandas,matapolotable,tesnsorflow...</p>
+                    <a href="#">Learn more....</a>
+                </div>
+            </div>
+        </div>
+   </div>
+
+<!-- -----------------portfolio-------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/work1.png">
+                <div class="layer">
+                    <h3>Data analysis big data</h3>
+                    <p>To analysing the hidden patterns in the dataset for bedtter decision making</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+              <div class="work">
+                <img src="./images/work2.png">
+                 <div class="layer">
+                    <h3>SQl for querying data</h3>
+                    <p>To quering,creating,manipulating,defining,controlling..</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                 </div>
+               </div>
+            <div class="work">
+                <img src="./images/work3.png">
+                <div class="layer">
+                    <h3>Python</h3>
+                    <p>Using numpy,pandas,matapolotable,tesnsorflow...</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -------------contact------------ -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope-open-text"></i>keerthi@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> 8712245330</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/keerthi-b-223535245/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://x.com/KeerthiBammidi"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://github.com/Keerthi2525"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.facebook.com/login.php"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.theforage.com/profile/agJ2nXaKGZYjCnQqM"><i class="fa-solid fa-star-half-stroke"></i></a>
+                </div>
+                <a href="./images/Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Yourname" required>
+                    <input type="email" name="Email" placeholder="your email" required>
+                    <textarea name="Message" rows="6" placeholder="your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Keerthi. Made with <i class="fa-solid fa-shield-heart"></i> by XYZ</p>
+    </div>
+ </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+           for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+           }
+           for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+           }
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw6wxjExIJ_iMSy4-MlueEjFrCg9jpvX9dp8FiaNusgMo6GFbSls60qTyICqrG__pkAwg/exec'
+        const form = document.forms['submit-to-google-sheet']
+         const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML ="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
